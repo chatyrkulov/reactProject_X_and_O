@@ -1,0 +1,37 @@
+.wrapper{
+	min-height: 100vh;
+	width: 100%;
+	background-color: #afaeff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.start_btn{
+	width: 180px;
+	height: 40px;
+	margin-bottom: 2rem;
+	cursor: pointer;
+	color: #222;
+	font-weight: 800;
+	outline: none;
+	background: #a1a1ff;
+	border: 2px solid #222;
+}	
+.start_btn:hover{
+	background: #222;
+	color: #a1a1ff;
+	border-color: #a1a1ff;
+	transition: .8s all ease;
+}
+.game_info{
+	margin-top: 2rem;
+	color: #222;
+	font-size: 32px;
+	font-weight: 800;
+	border: 1px solid #8282ff;
+	background-color: #8282ff;
+	padding: 1rem 2rem;
+	box-shadow: 10px 5px 5px #8282ff;
+
+}
